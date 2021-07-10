@@ -1,0 +1,33 @@
+header{
+    width: 100%;
+    
+ 
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: darkgray;
+    text-transform: uppercase;
+}
+nav>ul>li{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    color: darkgray;
+}
